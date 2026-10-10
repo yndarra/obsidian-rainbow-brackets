@@ -23,10 +23,11 @@ body.theme-light {
 .rb-depth-2 { color: var(--rb-2); }
 .rb-depth-3 { color: var(--rb-3); }
 
-/* Unmatched bracket — red with a wavy underline so it stands out */
+/* Unmatched bracket — red with a dotted underline so it stands out
+   (border instead of text-decoration: the latter is only partially supported on mobile) */
 .rb-unmatched {
 	color: var(--rb-bad);
-	text-decoration: wavy underline var(--rb-bad);
+	border-bottom: 2px dotted var(--rb-bad);
 	font-weight: bold;
 }
 

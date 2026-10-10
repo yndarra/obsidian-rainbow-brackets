@@ -4,7 +4,7 @@ Makes nested brackets readable in plain Markdown text — like rainbow brackets 
 
 - **Colors by depth** — `()`, `[]` and `{}` are colored by nesting level (4 colors, cycling). Both brackets of a pair share a color.
 - **Pair at the cursor** — the bracket next to the cursor and its match get a highlight.
-- **Unmatched brackets** — shown in red with a wavy underline. In `[ ( ]` only the `(` is flagged.
+- **Unmatched brackets** — shown in red with a dotted underline. In `[ ( ]` only the `(` is flagged.
 
 Ignored: brackets inside inline code, code blocks, math (`$...$`) and frontmatter, escaped brackets (`\(`), and ordered list markers like `1)` / `a)` at the start of a line.
 
