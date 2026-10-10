@@ -12,7 +12,7 @@ Works in the editor (Live Preview and Source mode). Reading view is not affected
 
 ## Installation
 
-**From Community plugins** (once approved): Settings → Community plugins → Browse → search "Rainbow Brackets".
+**From Community plugins:** Settings → Community plugins → Browse → search "Rainbow Brackets".
 
 **Manually:** download `main.js`, `manifest.json` and `styles.css` from the [latest release](https://github.com/yndarra/obsidian-rainbow-brackets/releases/latest) into `<your vault>/.obsidian/plugins/rainbow-brackets/`, then enable the plugin in Settings → Community plugins.
 
