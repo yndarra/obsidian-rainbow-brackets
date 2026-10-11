@@ -31,9 +31,11 @@ body.theme-light {
 	font-weight: bold;
 }
 
-/* Pair at the cursor — background and outline (no font-weight change, so text doesn't shift) */
+/* Pair at the cursor — background and an inner bottom line.
+   No side borders/outline: they sit exactly where the cursor is drawn and hide it.
+   No font-weight change either, so text doesn't shift. */
 .rb-active {
 	background-color: var(--rb-active-bg);
-	outline: 1px solid currentColor;
+	box-shadow: inset 0 -2px 0 currentColor;
 	border-radius: 2px;
 }
